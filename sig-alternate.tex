@@ -1,0 +1,185 @@
+% This is "sig-alternate.tex" V2.0 May 2012
+% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.5) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V2.0 - May 2012
+
+\documentclass{sig-alternate}
+\begin{document}
+%
+% --- Author Metadata here ---
+\conferenceinfo{WE-IECT}{'14 Dhaka, Bangladesh}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{SafeStreet: Empowering Women Against Street Harassment using a Crowd-Powered Spatio-Temporal Location Based Application}
+
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{2} %  in this sample file, there are a *total*
+% of THREE authors.
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author \titlenote{Dr.~Trovato insisted his name be first.
+\alignauthor
+Mohammed Eunus Ali\\
+       \affaddr{Bangladesh University of Engineering and Technology}\\
+       \affaddr{Dhaka 1000}\\
+       \affaddr{Bangladesh}\\
+       \email{eunus@cse.buet.ac.bd}
+% 2nd. author \titlenote{The secretary disavows any knowledge of this author's actions.}
+%\alignauthor
+%Asiful Hossain\\
+%       \affaddr{Bangladesh University of Engineering and Technology}\\
+%       \affaddr{Dhaka- 1000}\\
+%       \affaddr{Bangladesh}\\
+%       \email{asif.hossain@uap-bd.edu}
+% 3rd. author {\o}rv{\"a}ld\titlenote{This author is the one who did all the really hard work.}
+\alignauthor
+ Shabnam Basera Rishta\\
+       \affaddr{Bangladesh University of Engineering and Technology}\\
+       \affaddr{Dhaka 1000}\\
+       \affaddr{Bangladesh}\\
+       \email{sbrishta.13@gmail.com}
+}
+
+
+\maketitle
+\begin{abstract}
+
+\end{abstract}
+
+\keywords{Sexual Harassment, Women Empowerment, Location Based Application}
+
+\section{Introduction}
+
+From Dhaka to California, street harassment of women is a significant and prevalent problem in a modern society. Recent study shows that more than 90 percent of women faced some sort of sexual harassments in public places. Street harassment can happen in various forms ranging from commenting, catcalling, and staring to touching and groping, to attacking and raping. Though, the most severe form of harassments such as raping and attacking get some attention from society, NGOs and law-enforcement agencies, unfortunately, other forms of harassments that are more widespread in public places remain largely un-attended or ignored in our conservative society. However, the recent study shows that these harassments are more common and can have various negative psychological impacts on girls/women that includes a persistent feeling of insecurity, loss of self-esteem, restricted participation in daily life activities in public places. Though the problem has been identified long before, no visible remedy or action can be seen to overcome or combat this social problem. In this project, we propose to utilize the power of GPS-enabled smart phones to empower women against street harassment, which in turn will facilitate women to feel secure, to boost self-esteem, and to participate in daily-life activities in public places, which are essential to achieve equal human rights for women in a modern society.
+
+Street harassments in crowded urban area like Dhaka are so prevalent that women from all walks of life - from school/college going girls to working women face sexual harassments in public places - whether  on streets/footpaths, or market places, or in public transports. Specially, in developed countries like Bangladesh or India, unsafe public transports, highly crowded streets/footpaths, lack of amenities or law forcing agencies, and male dominating social cultures, are the main reason behind this widespread epidemic of sexual harassment in public places. A recent study in New Delhi found that 95\% of the surveyed women believe that they had to restrict their mobility in fear of harassment in public places, where 82\% of them faced harassments in public buses. A recent study in Dhaka also shows that, public transport is the most favorable places for the predators, where as footpaths/streets and public gathering places are also major hunting ground for this type of crime. Unlike developed countries, where women are more vocal and can protest against any sexual street harassment,  in a conservative society like Bangladesh, women remain silent in fear of shame and social disgrace gainst such crimes, which is another reason of the increasing trends of sexual harassments of women in public places.
+
+Albeit we all know these problems, traditionally, mothers/older sisters shared tips and advice such as do not walk alone, or do not go out at night, or dress conservatively, to young girls to keep them safe by avoiding such incidents. However, at this stage of modern society where we all talk about equal rights for men and women, it is time to go beyond these advice and empower women in all means so that street harassment no-longer can limit a women any way to navigate public places to do their own jobs with experiencing or fearing street harassment. Several recent efforts have been made from Cairo to London, to tackle this street harassment problem through the use of information and communication technology. The main theme of all these works are to allow victims to report the incident or call for immediate help to a friend by using their mobile phones. These approaches are certainly helping raising awareness among women and in some cases empowering women to some extent. However, in the most cases, the duration of the sexual harassment is very short (e.g., commenting/touching/groping), thus a friend staying a bit further a cannot be of any help. More importantly, in a conservative societies like Bangladesh women do not want to report such incidents due to social shame and pressures.
+
+To alleviate all the problems, we propose a crowd-powered spatio-temporal location based application, \emph{SafeStreet}, that empower women in public places against sexual harassments. The idea of SafeStreet comes from a key observation that the most of the sexual harassments are \emph{spatio-temporal} in nature, that is, a certain type of harassment occurs more frequently at a certain place at a particular time. For example, un-wanted physical contact/touching is more frequent in Nilkhet area between 6 pm  and 8pm, whereas commenting is more frequent at City College area between 12pm to 2pm. SafeStreet continuously updates a user about the harassment risks she is going to visit next. Moreover, SafeStreet allows a women to find a safe path, i.e., the path to a destination that has less harassment hazard, at any point of time. Again, for a casual traveler, who has the choice of visiting a place at a flexible time, SafeStreet suggests the time of visiting the place, when the harassment hazard is least. Note that all the harassment data is spatio-temporally tagged, which is collected through crowd-sourcing and maintained in location based server.
+
+Another interesting and important feature of SafeStreet is that it allows a women to privately stores her harassment experiences on the go, by just taping the mobile screen twice. SafeStreet learns from these personal experiences and advice the user to take a safe path while travelling. This feature helps women of conservative nature who does not want the harassment case to be reported, which constitutes a significant portion of women in our culture.
+
+
+
+
+\section{Related Works}
+
+
+
+\section{SafeStreet}
+\label{solution}
+
+
+\section{Prototype}
+\label{solution}
+
+\section{Conclusions and Future Works}
+
+
+%\end{document}  % This is where a 'short' article might terminate
+
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+%\appendix
+%Appendix A
+%\section{References}
+%Generated by bibtex from your ~.bib file.  Run latex,
+%then bibtex, then latex twice (to resolve references)
+%to create the ~.bbl file.  Insert that ~.bbl file into
+%the .tex source file and comment out
+%the command \texttt{{\char'134}thebibliography}.
+% This next section command marks the start of
+% Appendix B, and does not continue the present hierarchy
+\end{document}
